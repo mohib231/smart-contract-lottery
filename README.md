@@ -64,3 +64,23 @@ $ forge --help
 $ anvil --help
 $ cast --help
 ```
+
+
+# Proveably Random Ruffle Contracts
+
+## About
+
+This code is to create a proveable random smart contract lottery
+
+## what we want it to do?
+
+1. Users can enter by paying for a ticket
+  1. The ticket fees are going to go to winner during the draw
+
+2. After X period of time,the lottery automatically draw a winner
+  1. this will be done programatically
+
+3. Using chainlink VRF and chainlink automation
+ 1. Chainlink VRF for randomness
+ 2. Chainlink automation -> time based trigger  
+
